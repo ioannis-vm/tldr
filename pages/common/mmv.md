@@ -18,3 +18,7 @@
 - Convert dates in filenames from "M-D-Y" format to "D-M-Y" format:
 
 `mmv "{{[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt}}" "{{#3#4-#1#2-#5#6#7#8.txt}}"`
+
+- Replace spaces with underscores:
+
+`mmv '* *' '#1_#2'`
